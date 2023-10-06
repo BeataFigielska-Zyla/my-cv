@@ -1,0 +1,24 @@
+:root {
+    --darkblue-color: rgb(34, 34, 70);
+    --black-color: black;
+    --white-color: white;
+    --gray-color: rgb(58, 56, 56);
+    --purple-color: rgb(75, 43, 84);
+    
+}
+
+body {
+    display: flexbox;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+aside {
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
+    float: left;
+}
+
+wrapper {
+    
+}
