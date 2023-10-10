@@ -1,5 +1,5 @@
 :root {
-    --darkblue-color: rgb(34, 34, 70);
+    --darkblue-color: rgb(19, 19, 32);
     --black-color: black;
     --white-color: white;
     --gray-color: rgb(58, 56, 56);
@@ -8,7 +8,7 @@
 }
 
 body {
-    display: flexbox;
+   
     background-color: var(--white-color);
     color: var(--black-color);
 }
@@ -16,9 +16,11 @@ body {
 aside {
     background-color: var(--darkblue-color);
     color: var(--white-color);
-    float: left;
+    flex-basis: 370px;
 }
 
-wrapper {
-    
+.wrapper {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
 }
