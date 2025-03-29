@@ -4,9 +4,13 @@
 
 body {
     background-color: var(--main-color);
-    font-family: 'Montserrat', Courier, monospace;
+    font-family: "Montserrat", sans-serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
 h1 {
     font-size: 70px;
     font-weight: 700;
