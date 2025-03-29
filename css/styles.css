@@ -1,8 +1,9 @@
 :root {
     --main-color: rgb(249, 244, 244);
-    --wrapper-color: rgb(223, 215, 215);
+    --wrapper-color: rgb(239, 239, 239);
     --black-color: black;
-    --white-color: var(--white-color)
+    --white-color: white;
+    --aside-color: rgba(221, 215, 215, 0.853);
 
 }
 
@@ -20,10 +21,24 @@ body {
     background-color: var(--wrapper-color);
     box-shadow: 6px 6px 20px var(--black-color);
 }
+
+
+.myname {
+    
+    margin: 0;
+    padding: 0 40px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 h1 {
     font-size: 60px;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 
 h2 {
@@ -39,15 +54,49 @@ h3 {
     font-weight: 600;
 }
 
-.myname {
-    height: 400px;
+.workexperience {
+    padding: 40px;
+}
+
+.workexperiencelist {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.workexperiencelistli {
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: var(--aside-color);
+    width: 300px;
+    font-size: 18px;
+}
+.skills {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 20px;
+   
+}
+
+.listfooter {
+    list-style: none;
+    padding: 0;
      
 }
 
+.listfooterli {
+    margin-bottom: 20px;
+}
 
-
-
-
+.linkfooter {
+    color: var(--white-color);
+}
 
 
 
