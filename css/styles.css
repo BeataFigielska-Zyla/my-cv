@@ -1,9 +1,11 @@
 :root {
     --main-color: rgb(249, 244, 244);
     --wrapper-color: rgb(239, 239, 239);
-    --black-color: black;
+    --grey-color: rgb(68, 66, 66);
     --white-color: white;
-    --aside-color: rgba(221, 215, 215, 0.853);
+    --orange-coor: rgb(233, 126, 3);
+
+   
 
 }
 
@@ -19,19 +21,24 @@ body {
     justify-content: center;
     margin: 0 auto;
     background-color: var(--wrapper-color);
-    box-shadow: 6px 6px 20px var(--black-color);
+    box-shadow: 6px 6px 20px var(--grey-color);
 }
 
-
+main {
+    width: 850px;
+}
 .myname {
     
     margin: 0;
     padding: 0 40px;
-    background-color: var(--black-color);
+    background-color: var(--grey-color);
     color: var(--white-color);
     height: 400px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
@@ -39,12 +46,13 @@ body {
 h1 {
     font-size: 60px;
     font-weight: 700;  
+    margin: 0 0 20px 0;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 400;
-   
+    margin: 0;
 }
 
 h3 {
@@ -54,31 +62,64 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    color: var(--orange-coor);
+    font-size: 22px;
+   
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    text-align: justify;
+}
+
 .workexperience {
-    padding: 40px;
+    padding: 0 40px;
+    width: 750px;
+    
 }
 
 .workexperiencelist {
     list-style: none;
     padding: 0;
     font-size: 20px;
+   
 }
 
 .workexperiencelistli {
     margin-bottom: 20px;
+    
+    
 }
 
-aside {
-    background-color: var(--aside-color);
-    width: 300px;
-    font-size: 18px;
+.firm {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
+
+h4, h5 {
+    margin: 0;
+}
+aside {
+    background-color: var(--grey-color);
+    width: 350px;
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+
 .skills {
     padding: 0 20px;
 }
 
 footer {
-    background-color: var(--black-color);
+    background-color: var(--grey-color);
     color: var(--white-color);
     padding: 20px;
    
