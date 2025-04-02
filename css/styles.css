@@ -65,6 +65,7 @@ h3 {
 h4 {
     color: var(--orange-coor);
     font-size: 22px;
+    margin-bottom: 10px;
    
 }
 
@@ -74,6 +75,7 @@ h5 {
 
 p {
     text-align: justify;
+    margin: 0;
 }
 
 .workexperience {
